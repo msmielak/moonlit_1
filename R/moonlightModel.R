@@ -1,7 +1,12 @@
 
 ### A function to calculate moonlight intensity for a given location and time.
 ### Requires 3 variables: latitude (numerical), longitude (numerical) and date (POSIXct, date and time)
+
+### lat, lon and date have to be vectors of equal length
+
 ### extinction coefficient has to be provided, based on the altitude of the point with a variable "e"
+### at the moment the model assumes equal altitude for all points
+
 ### Average extinction coefficients (magnitude per air mass) are as follows:
 ### At sea level: 0.28
 ### At 500m asl: 0.24
