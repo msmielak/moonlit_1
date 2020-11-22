@@ -1,0 +1,20 @@
+Package: moonlight
+Version: 0.0.1
+Date: 2020-11-22
+Title: moonlight - method of modeling moonlight illumination intensity on the ground
+Authors@R: c(person("Joe", "Developer", role = c("aut", "cre"),
+                    email = "Joe.Developer@some.domain.net"),
+             person("Pat", "Developer", role = "aut"),
+             person("A.", "User", role = "ctb",
+                    email = "A.User@whereever.net"))
+Author: Michal Smielak [aut, cre],
+Pat Developer [aut],
+A. User [ctb]
+Maintainer: Michal Smielak <michalsmielak@gmail.com>
+  Depends: R (>= 3.1.0), nlme
+Suggests: MASS
+Description: A (one paragraph) description of what
+the package does and why it may be useful.
+License: GPL (>= 2)
+URL: https://www.r-project.org, http://www.another.url
+BugReports: https://pkgname.bugtracker.url
