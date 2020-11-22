@@ -1,5 +1,5 @@
 library(devtools)
 
-use_git()
+use_r("moonlightModel")
 
 load_all()
