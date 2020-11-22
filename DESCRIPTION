@@ -4,8 +4,7 @@ Title: Predicting moonlight intensity on the ground for a given place and time
 Version: 0.1.0
 Author: Michal Smielak
 Maintainer: Michal Smielak <michalsmielak@gmail.com>
-Description: Computational method to calculate predicted moonlight intensity on the ground,
-based on the position of the moon in the sky and a number of correction factors.
+Description: Computational method to calculate predicted moonlight intensity on the ground, based on the position of the moon in the sky and a number of correction factors.
 License: GNU GPLv3
 Encoding: UTF-8
 LazyData: true
