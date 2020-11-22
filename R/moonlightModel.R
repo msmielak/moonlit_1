@@ -1,10 +1,4 @@
 
-
-#date <- d1$date
-#lat <- d1$lat
-#lon <- d1$lon
-
-
 ### A function to calculate moonlight intensity for a given location and time.
 ### Requires 3 variables: latitude (numerical), longitude (numerical) and date (POSIXct, date and time)
 ### extinction coefficient has to be provided, based on the altitude of the point with a variable "e"
@@ -21,30 +15,30 @@ calculateMoonlightIntensity <- function(lat, lon, date, e)
 
 {
 
-  
-  
-  #extiction coefficient based on the user-assigned value  
+
+
+  #extiction coefficient based on the user-assigned value
   extCoef <- e
-  
-  
-    
+
+
+
 
   #suncalc library is needed to calculate sun and moon positions
   library(suncalc)
-  
+
 
 
   #creating a dataframe to calculate sun and moon positions
   d1 <- data.frame(date, lat, lon)
- 
+
 
   #calculating values using suncalc library
   moonPosition <- getMoonPosition(data = d1)
   moonIllum <- getMoonIllumination(date = date)
   phaseAngle <- acos((2*moonIllum$fraction)-1)
   sunPosition <- getSunlightPosition(data = d1)
-  
-  
+
+
 
   #using one of the outputs to start building a table for the results
   night<- moonIllum
@@ -67,7 +61,7 @@ calculateMoonlightIntensity <- function(lat, lon, date, e)
 #adding a "night" field - below 6 degrees equals to nautical twilight and darker
 night$night <- night$sunAltDegrees < (0)
 
-#subsetting the data for night only 
+#subsetting the data for night only
 #night <- subset(night, night == TRUE)
 
 ################################################################
@@ -201,7 +195,7 @@ night$moonlightModel24 <- ifelse((night$moonAlt<=0), 0,  night$moonlight24hCompo
 #############################################################
 ##############################################################
 #### Twilight illumination from empirical data https://www.jstor.org/stable/44612241
-####  Sun Position and Twilight Times for Driver Visibility Assessment; Duane D. MacInnis, Peter B. Williamson and Geoffrey P. Nielsen; SAE Transactions; Vol. 104, Section 6: JOURNAL OF PASSENGER CARS: Part 1 (1995), pp. 759-783 
+####  Sun Position and Twilight Times for Driver Visibility Assessment; Duane D. MacInnis, Peter B. Williamson and Geoffrey P. Nielsen; SAE Transactions; Vol. 104, Section 6: JOURNAL OF PASSENGER CARS: Part 1 (1995), pp. 759-783
 ####  Values calulated from the paper for angles -18 to 5 degrees, by 0.25 degree, imported to R and spline function applied
 ##############################################################
 
