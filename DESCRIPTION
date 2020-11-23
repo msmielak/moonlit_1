@@ -8,3 +8,4 @@ Description: Computational method to calculate predicted moonlight intensity on 
 License: GNU GPLv3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1

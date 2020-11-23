@@ -1,4 +1,7 @@
 
+
+
+
 ### A function to calculate moonlight intensity for a given location and time.
 ### Requires 3 variables: latitude (numerical), longitude (numerical) and date (POSIXct, date and time)
 
@@ -14,11 +17,13 @@
 ### at 2000m asl: 0.16
 
 
-
 calculateMoonlightIntensity <- function(lat, lon, date, e)
 
 
 {
+
+
+
 
 
 

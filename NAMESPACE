@@ -1,1 +1,6 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "points")
+importFrom("stats", "splinefun")
+importFrom("suncalc", 'getMoonPosition')
+importFrom("suncalc", 'getMoonIllumination')
+importFrom("suncalc",  'getSunlightPosition')
