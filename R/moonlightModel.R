@@ -17,6 +17,18 @@
 ### at 2000m asl: 0.16
 
 
+### Output structure:
+# $night - logical value for night records (sun below the horizon)
+# $moonlightModel - predicted moonlight intensity value (relative to an average full moon in zenith), zero for daylight observations
+# $twilightModel - predicted twilight illumination values (lx) based on position of the sun & empirical data
+# $illumination - combined illumination - moonlight + twilight (lx)
+# d1$moonPhase <- night$moonIllum
+# moonlightModel24 - predicted moonlight intensity value without correction for day/night
+
+
+
+
+
 calculateMoonlightIntensity <- function(lat, lon, date, e)
 
 
