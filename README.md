@@ -42,16 +42,14 @@ library(moonlit)
 ### Functions
 #### calculateMoonlightIntensity()
 
-Function
+
 ```R
 calculateMoonlightIntensity(lat, lon, date, e)
 ```
-requires as an input a matrix of values for location and date and a value of extinction coefficient *e* depending on the altitude.
-
-Required formats for latitude and longitude are decimal degrees, for date it is POSIXct. Extinction coefficient *e* requires a single numerical value.
+Function requires as an input a matrix of values for location and date and a value of extinction coefficient *e* depending on the altitude.  
+Formats for latitude and longitude are decimal degrees, for date it is POSIXct. Extinction coefficient *e* requires a single numerical value.
 
 Average extinction coefficients (magnitude per air mass) are as follows:
-
 * At sea level: 0.28
 * At 500m asl: 0.24
 * at 1000m asl: 0.21
