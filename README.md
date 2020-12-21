@@ -1,4 +1,4 @@
-<b>Moonlit</b>
+# Moonlit
 
 R package providing biologically meaningful moonlight measures. Allows to study ecological and behavioural effects of changing moonlight intensity.
 Particularly usefull in determining preference towards high or low illumination levels in different temporal scales (night, lunar cycle, seasons, years)
