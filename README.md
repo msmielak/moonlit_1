@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img align="center" src="graphics/moonlit_logo.png" width="200px"/>
+  <img align="center" src="graphics/moonlit_logo.png" width="250px"/>
 </p>
 
 # moonlit
@@ -18,3 +18,15 @@ Current functions:
 - [x] Predicting moonlight intensity on the ground for any given place and time
 - [x] Predicting twilight illumination levels 
 - [ ] Calculating nightly mean illumianation levels for a given location
+
+
+## Using the moonlit library
+### Installing
+To install from github you need devtool package
+
+```R
+install.packages("devtools")
+
+library(devtools)
+install_github("msmielak/moonlit")
+```
