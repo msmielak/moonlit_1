@@ -276,7 +276,12 @@ d1$moonlightModel <- night$moonlightModel
 d1$twilightModel <- night$twilightModel
 d1$illumination <- night$illumination
 d1$moonPhase <- night$moonIllum
-d1$moonlightModel24 <- night$moonlightModel24
+
+# This is an obsolete column that calculates moonlight intensity during the day.
+# I needed it for some tests in the past, it is now obsolete as it has no use in ecological studies.
+# I leave it here in case it is needed in the future
+
+  #d1$moonlightModel24 <- night$moonlightModel24
 
 
 
