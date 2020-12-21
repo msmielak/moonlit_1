@@ -1,5 +1,4 @@
-![Moonlit logo]
-(./graphics/moonlit_logo.png)
+![Moonlit logo] (/graphics/moonlit_logo.png)
 
 # Moonlit
 
