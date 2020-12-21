@@ -27,10 +27,15 @@ Current functions:
 To install from github you need devtool package
 
 ```R
+#install and load devtools
 install.packages("devtools")
-
 library(devtools)
+
+#install moonlit library from github repo
 install_github("msmielak/moonlit")
+
+#load the moonlit library
+library(moonlit)
 ```
 
 ### Functions
