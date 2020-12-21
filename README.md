@@ -11,4 +11,5 @@ To date following functionalities have been implemented:
 
 1. Predicting moonlight intensity on the ground for any given place and time
 2. Predicting twilight illumination levels
+
 ~~3. Calculating nightly mean illumianation levels for a given location~~
