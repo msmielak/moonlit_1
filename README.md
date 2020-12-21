@@ -4,7 +4,7 @@ R package providing biologically meaningful moonlight measures. Allows to study 
 Particularly usefull in determining preference towards high or low illumination levels in different temporal scales (night, lunar cycle, seasons, years)
 
 
-__This is an early release  and fuctionalities might change. This package is currently pending a peer-review and detailed desctription will be available soon__
+__This is an early release  and fuctionalities might change. This package is currently pending a peer-review and detailed desctription will be available after it is published__
 
 
 To date following functionalities have been implemented:
