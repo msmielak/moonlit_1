@@ -17,7 +17,7 @@ Current functions:
 
 - [x] Predicting moonlight intensity on the ground for any given place and time
 - [x] Predicting twilight illumination levels 
-- [ ] Calculating nightly mean illumianation levels for a given location
+- [ ] Calculating nightly mean illumianation levels for a given location - this is actually a bit tricky because you need to calculate it for each night, and not for each 24h block. Needs including into the repository as a separate function
 
 
 
