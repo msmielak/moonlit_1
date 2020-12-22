@@ -50,6 +50,7 @@ Function requires as an input a matrix of values for location and date and a val
 Formats for latitude and longitude are decimal degrees, for date it is POSIXct. Extinction coefficient *e* requires a single numerical value.
 
 Average extinction coefficients (magnitude per air mass) are as follows:
+
 * At sea level: 0.28
 * At 500m asl: 0.24
 * at 1000m asl: 0.21
@@ -62,3 +63,5 @@ Function returns a data frame with following columns:
 * **twilightModel** - predicted twilight illumination in lx
 * **illumination** - combined moon and twilight intensity, in lx. Moonlight converted to lx based on average full moon value of 0.32 lx.
 * **moonPhase** - lunar phase in numerical value - % of moon face illuminated
+
+It will also conveniently plot predicted values as points and moon phase as line, allowing for quick visual comparison of the two measures.
