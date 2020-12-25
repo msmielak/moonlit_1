@@ -49,21 +49,22 @@ library(moonlit)
 ```R
 calculateMoonlightIntensity(lat, lon, date, e)
 ```
-Function requires as an input a matrix of values for location and date and a value of extinction coefficient *e* depending on the altitude.  
-Formats for latitude and longitude are decimal degrees, for date it is POSIXct. Extinction coefficient *e* requires a single numerical value.
+Function requires as an input a matrix of values for location and date and a value of extinction coefficient *e*.  
+Accepted formats:
 
-Average extinction coefficients (magnitude per air mass) are as follows:
-
-* At sea level: 0.28
-* At 500m asl: 0.24
-* at 1000m asl: 0.21
-* at 2000m asl: 0.16
+* latitude and longitude - decimal degrees
+* date - POSIXct
+* Extinction coefficient *e* - a single numerical value depending on the altitude. Average extinction coefficients (magnitude per air mass) are as follows:
+  - At sea level: 0.28
+  - At 500m asl: 0.24
+  - at 1000m asl: 0.21
+  - at 2000m asl: 0.16
 
 Function returns a data frame with following columns:
 
 * **night** - a logical value, true when sun below the horizon for given date and location
 * **moonlightModel** - predicted moonlight illumination, relative to an "average" full moon
-* **twilightModel** - predicted twilight illumination in lx
+* **twilightModel** - predicted twilight illumination in lx; this is a crude approximation based solely on the position of the sun, so use with caution.
 * **illumination** - combined moon and twilight intensity, in lx. Moonlight converted to lx based on average full moon value of 0.32 lx.
 * **moonPhase** - lunar phase in numerical value - % of moon face illuminated
 
