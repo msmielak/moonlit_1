@@ -5,7 +5,7 @@
 </p>
 
 # moonlit v 0.9
-(c) Michal Smielak 2020
+(c) Michal Smielak 2020  
 Avaiblabe under CC BY-NC-SA 4.0 licence
 
 ## Description
