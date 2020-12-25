@@ -6,6 +6,7 @@
 
 # moonlit v 0.9
 (c) Michal Smielak 2020
+Avaiblabe under CC BY-NC-SA 4.0 licence
 
 ## Description
 
@@ -14,7 +15,7 @@ Particularly usefull in determining preference towards high or low illumination 
 
 ### Disclaimer
 
-__This is an early release and functionalities might change. This package is currently pending a peer-review and detailed desctription will be available after it is published. I take no responsibility for the proper functioning of this package. If you have any questions, concerns or you would simply like to apply it to your data, I encourage to contact me directly. Otherwise, basic explaination of currently available functions will be available below.__
+__This is an early release and functionalities might change. This package is currently pending a peer-review and detailed desctription will be available after it is published. I take no responsibility for the proper functioning of this package. If you have any questions, concerns or you would simply like to apply it to your data, I encourage to contact me directly. Otherwise, basic explaination of currently available functions is be available below.__
 
 
 ### Currently working functionalities:
