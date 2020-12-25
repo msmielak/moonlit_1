@@ -4,7 +4,7 @@
   <img align="center" src="graphics/moonlit_logo.png" width="250px"/>
 </p>
 
-# moonlit
+# moonlit v 0.9
 
 
 R package providing biologically meaningful moonlight measures. Allows to study ecological and behavioural effects of changing moonlight intensity.
