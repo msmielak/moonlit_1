@@ -5,16 +5,19 @@
 </p>
 
 # moonlit v 0.9
+(c) Michal Smielak 2020
 
+## Description
 
 R package providing biologically meaningful moonlight measures. Allows to study ecological and behavioural effects of changing moonlight intensity.
 Particularly usefull in determining preference towards high or low illumination levels in different temporal scales (night, lunar cycle, seasons, years).
 
+### Disclaimer
 
-__This is an early release and functionalities might change. This package is currently pending a peer-review and detailed desctription will be available after it is published.__
+__This is an early release and functionalities might change. This package is currently pending a peer-review and detailed desctription will be available after it is published. I take no responsibility for the proper functioning of this package. If you have any questions, concerns or you would simply like to try this package, I encourage to contact me directly.__
 
 
-Current functions:
+### Current functions:
 
 - [x] Predicting moonlight intensity on the ground for any given place and time
 - [x] Predicting twilight illumination levels 
