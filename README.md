@@ -13,6 +13,7 @@ Avaiblabe under CC BY-NC-SA 4.0 licence
 R package providing biologically meaningful moonlight measures. Allows to study ecological and behavioural effects of changing moonlight intensity.
 Particularly usefull in determining preference towards high or low illumination levels in different temporal scales (night, lunar cycle, seasons, years).
 
+
 ### Disclaimer
 
 __This is an early release and functionalities might change. This package is currently pending a peer-review and detailed desctription will be available after it is published. I take no responsibility for the proper functioning of this package. If you have any questions, concerns or you would simply like to apply it to your data, I encourage to contact me directly. Otherwise, basic explaination of currently available functions is be available below.__
@@ -70,3 +71,13 @@ Function returns a data frame with following columns:
 * **moonPhase** - lunar phase in numerical value - % of moon face illuminated
 
 It will also conveniently plot predicted values as points and moon phase as line, allowing for quick visual comparison of the two measures.
+
+## References
+
+* Kyba, C., A. Mohar, and T. Posch. How bright is moonlight? Astronomy & Geophysics. 2017, 58:1.31–31.32. DOI: 10.1093/astrogeo/atx025  
+* Prugh LR, Golden CD. Does moonlight increase predation risk? Meta-analysis reveals divergent responses of nocturnal mammals to lunar cycles. Journal of Animal Ecology. 2014 Mar;83(2):504-14. DOI: 10.1111/1365-2656.12148.  
+* Austin, R. H., Phillips, B. F. and Webb, D. J. Method for calculating moonlight illuminance at the earth's surface. Journal of Applied Ecology 13 (3): 741–48. DOI:10.2307/2402251  
+* Green, D. W. E. Magnitude corrections for atmospheric extinction. International Comet Quarterly. 1992 (14):55-59  
+* Agafonkin, V., Benoit T. Suncalc: Compute Sun Position, Sunlight Phases, Moon Position and Lunar Phase (version 0.4). 2018. https://CRAN.R-project.org/package=suncalc.  
+* Buratti, Bonnie J., John K. Hillier, and Michael Wang. The Lunar Opposition Surge: Observations by Clementine.” Icarus. 1996 Dec;124:490–99. DOI: 10.1006/icar.1996.0225
+
