@@ -1,8 +1,9 @@
 Package: moonlit
 Type: Package
 Title: Predicting moonlight intensity on the ground for a given place and time
-Version: 0.1.0
-Author: Michal Smielak
+Version: 0.9
+Authors@R: person("Michal", "Smielak", email = "michalsmielak@gmail.com",
+  role = c("aut", "cre"))
 Maintainer: Michal Smielak <michalsmielak@gmail.com>
 Description: Predicting moonlight intensity on the ground, based on the position of the moon in the sky and a number of correction factors.
 License: GNU GPLv3
